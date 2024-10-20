@@ -1,0 +1,16 @@
+
+/*@media screen and (max-width:1200px){
+   .create_link a{
+    margin-top:63px;
+    margin-left:130px;
+} 
+    .create_link .btn{
+        left:130px;
+}
+}
+@media screen and (max-width:900px){
+   .create_link a{
+    margin-top:63px;
+    margin-left:90px;
+} 
+}

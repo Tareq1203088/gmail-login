@@ -1,0 +1,234 @@
+body{
+    font-family: "Roboto", sans-serif;
+     margin:0px;
+     padding:0px;
+}
+.header{
+    background-color:#F0F4F9;
+    overflow:hidden;
+}
+/*.header::after{
+    content:'';
+    clear:both;
+    display:block;
+}*/
+.top{
+    height: 360px;
+    width:69%;
+    border:12px solid white;
+    border-radius: 20px;
+    background-color: white;
+    margin:80px auto 140px auto;
+    }
+.left_area{
+    width:50%;
+    float:left;
+}
+.left_area .icon img{
+    height:70px;
+    width:70px;
+    margin:10px 0 0 10px;
+}
+.left_area h1{
+    margin-top:10px;
+    font-size:34px;
+    font-weight: 400;
+    margin-left: 22px;
+}
+.left_area p{
+    margin-left:22px;
+    font-weight:5px;
+}
+.right_area{
+    width:49%;
+    float:left;    
+}
+.right_area .email{
+    margin-top:100px;
+    height:50px;
+    width:100%;
+    box-sizing:border-box;
+    border:1px solid black;
+    position: relative;
+}
+
+.email_area{
+position:relative;
+}
+.email_area label{
+    position:absolute;
+    top:116px;
+    left:15px;
+    transition: 0.3s;
+}
+.email:focus{
+  border: 1px solid blue;
+    
+}
+.email:focus+.email_phone{
+    position: absolute;
+    top:88px;
+    font-size:13px;
+    background: white;
+    padding: 5px;
+}
+.forgot_link{
+    margin-top: 10px;
+}
+.forgot_link a{
+    font-size:15px;
+    text-decoration: none;
+    color:#0b57d0;
+    padding:1px 4px;
+    
+}
+.forgot_link a:hover{
+    background-color:rgba(204, 204, 255,.3);
+    border-radius: 5px;
+}
+.text p{
+    margin-top:40px;
+    max-width:350px;
+    font-size:15px;
+    font-weight: 400;
+}
+.text a{
+    text-decoration: none;
+    padding:1px;
+}
+.text a:hover{
+   background-color:rgba(204, 204, 255,.3);
+    border-radius: 5px; 
+}
+.create_link{
+    height:40px;
+    width:100%;
+    border:1px solid wite;
+    margin-top: 30px;
+    position:relative;
+    box-sizing: border-box;
+}
+.create_link a{
+    text-decoration: none;
+    padding:10px;
+    position: absolute;
+    right:120px;
+    }
+.create_link>a:hover{
+    background-color:rgba(204, 204, 255,.2);
+    border-radius: 20px;  
+}
+.create_link .btn{
+    text-decoration: none;
+}
+.create_link .btn a{
+    height: 18px;
+    width: 43px;
+    background-color:rgb(24,90,188);
+    color: white;
+    padding: 12px 18px 12px 32px;
+    border-radius: 21px;
+    transition: 0s;
+}
+.create_link .btn{
+    position:absolute;
+    right:-120px;
+}
+.create_link .btn a:hover{
+    box-shadow: inset 2px 2px 2px 5px rgba(0,0,0,.1);
+}
+.container{
+    width:70%;
+    height: 160px;
+    border: 1px solid none;
+    position: relative;
+    box-sizing: border-box;
+    margin-top:-120px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 0px;
+}
+.left{
+    width:40%;
+    float:left;
+    position: absolute;
+}
+.left select{
+    background-color: #F0F4F9;
+    border:none;
+    width:195px;
+    height: 35px;
+    padding:5px 15px;
+
+}
+.left select:hover{
+    background-color:#E1E5EA;
+    border-radius: 9px;
+}
+.left select:focus{
+    border:2px solid blue;
+    border-radius: 5px;
+}
+.left select:focus option{
+    background-color: white;
+}
+footer .right{
+    float: left;
+    width:100%;
+    right:0px;
+    position: absolute;
+}
+footer .right ul{
+    float:right;
+    list-style: none;
+}
+footer .right ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer .right ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    padding:10px;
+}
+footer .right ul li a:hover{
+    background-color:#E1E5EA;
+    border-radius: 9px;
+}
+footer .right ul li a:active{
+    color:black;
+}
+footer .right ul li:last-child{
+    margin-right: 0px;
+}
+.flex_container{
+    display:flex;
+    flex-wrap: wrap;
+    direction: row;
+    margin-top:52px;
+   
+}
+.flex_item{
+    padding:5px;
+    color:#0066CC;
+    font-size:12px;
+    margin-left:33px;
+    margin-right:3px;
+}
+.left_flex{
+    display:flex;
+    width:30%
+}
+.right_flex{
+    width:70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
